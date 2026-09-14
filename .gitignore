@@ -67,3 +67,35 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Directorios de compilación y CMake
+/cmake-build-*/
+/build/
+/bin/
+/out/
+
+# Archivos específicos de CLion / JetBrains (.idea)
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf
+.idea/contentModel.xml
+.idea/caches/
+
+# Compiladores y objetos
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# Archivos de depuración y perfiles
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+.cache/
